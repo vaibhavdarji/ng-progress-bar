@@ -1,0 +1,18 @@
+* {
+    outline: none;
+}
+
+.dropdown {
+    margin: 15px 0;
+}
+
+.dropdown,
+.button-group {
+    float: left;
+}
+
+.error {
+    clear: both;
+    font-weight: bold;
+    font-size: 20px;
+}

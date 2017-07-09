@@ -2,13 +2,26 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
+## About the project
+it's random progress bar with update on fly.
+following dependent library needs to be installed before running this demo:
+
+1) npm (https://nodejs.org/en/) (should be latest)
+2) angular-cli (https://www.npmjs.com/package/angular-cli)
+
+## to start the project
+
+1) You need to have installed npm and angular-cli
+2) after installed, go to project folder
+3) run command npm i or npm install. (it will locally install the dependent libraries into project under node_modules)
+4) run command npm start or ng serve
+5) it will validate the dependent libraries and validate the code. after successfully validate, you can go to browser and open http://localhost:4200 to run the app.
+
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` or `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
 
 ## Build
 
